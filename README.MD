@@ -4,6 +4,8 @@
 
 Stylesh is a powerful and easy-to-use JavaScript and TypeScript library that enables developers to style text and add various decorative elements to console output. With Stylesh, you can apply colors to text and backgrounds, create dashed, double, solid, or custom borders, and even customize the border colors from a palette of 141 available colors. This library simplifies the process of enhancing console output for JavaScript and TypeScript developers, making debugging and logging more visually appealing and informative.
 
+![Examples](https://raw.githubusercontent.com/omar-alghaish/stylesh/main/imgs/Screenshot%202023-10-08%20002635.png)
+
 ## Installation
 
 Installation is done using the
@@ -116,19 +118,34 @@ console.log(
 );
 ```
 
+![the example result](https://raw.githubusercontent.com/omar-alghaish/stylesh/main/imgs/Screenshot%202023-10-08%20004134.png)
+
 ### Custom Border
 
 - **Symbol:** The character used to create the border.
 - **Border Position:** Use 'top', 'bottom', 'left', or 'right' to specify the position
 - **Border Color:** Any of the 141 available colors, use color names.
 
-
 #### Examples
 
 ```js
-console.log('Custom green border at the bottom.'.createCustomBorder('#', 'bottom', 'green'));
-console.log('Custom blue border on the left.'.createCustomBorder('*', 'left', 'blue'));
-console.log('Custom orange border on the right.'.createCustomBorder('@', 'right', 'orange'));
+console.log(
+  "Custom green border at the bottom.".createCustomBorder(
+    "#",
+    "bottom",
+    "green"
+  )
+);
+console.log(
+  "Custom blue border on the left.".createCustomBorder("*", "left", "blue")
+);
+console.log(
+  "Custom orange border on the right.".createCustomBorder(
+    "@",
+    "right",
+    "orange"
+  )
+);
 ```
 
 ## Abailable colors :
