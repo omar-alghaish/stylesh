@@ -1,0 +1,47 @@
+{
+  "name": "stylesh",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "author": {
+    "name": "Omar Alghaish",
+    "email": "omaralghish@gmail.com",
+    "url": "https://alghaish-eng.web.app/"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^25.0.5",
+    "@rollup/plugin-node-resolve": "^15.2.2",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "rollup": "^3.29.4",
+    "rollup-plugin-dts": "^6.0.2",
+    "typescript": "^5.2.2"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "color",
+    "ansi",
+    "terminal",
+    "javascript",
+    "console",
+    "commandline",
+    "log",
+    "colors",
+    "style",
+    "stylesh"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "rollup-plugin-url": "^3.0.1"
+  }
+}
