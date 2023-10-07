@@ -6,7 +6,7 @@ const returnString = function (
   borderType: string,
   borderColor: string,
   string: String,
-  direction?:string
+  direction?: string
 ): string {
   const { tLength, textArray } = bigLength(string);
 
@@ -14,46 +14,29 @@ const returnString = function (
     colors[borderColor || "reset"] + borderType + colors.reset;
   const borderWidth: string = coloredDot.repeat(tLength + 4);
 
-//   return `${borderWidth}\n${
-//     textArray
-//       .map(
-//         (line) =>
-//           `${coloredDot}${" ".repeat(
-//             (tLength - getVisibleWidth(line)) / 2 + 1
-//           )}${line}${" ".repeat(
-//             Math.ceil((tLength - getVisibleWidth(line)) / 2 + 1)
-//           )}${coloredDot}`
-//       )
-//       .join("\n") + `\n${borderWidth}`
-//   }`;
-
-
-
-
-  return (
-    direction === "r"
-      ? `${borderWidth}\n${
+  return direction === "r"
+    ? `${borderWidth}\n${
         textArray
           .map(
             (line) =>
               `${coloredDot}${" ".repeat(
-                (tLength - getVisibleWidth(line))  + 2
+                tLength - getVisibleWidth(line) + 2
               )}${line}${coloredDot}`
           )
           .join("\n") + `\n${borderWidth}`
       }`
-      : direction === "l"
-      ?  `${borderWidth}\n${
+    : direction === "l"
+    ? `${borderWidth}\n${
         textArray
           .map(
             (line) =>
               `${coloredDot}${line}${" ".repeat(
-                Math.ceil((tLength - getVisibleWidth(line))  + 2)
+                Math.ceil(tLength - getVisibleWidth(line) + 2)
               )}${coloredDot}`
           )
           .join("\n") + `\n${borderWidth}`
       }`
-      :  `${borderWidth}\n${
+    : `${borderWidth}\n${
         textArray
           .map(
             (line) =>
@@ -64,9 +47,7 @@ const returnString = function (
               )}${coloredDot}`
           )
           .join("\n") + `\n${borderWidth}`
-      }`
-  );
-
+      }`;
 };
 
 export default returnString;

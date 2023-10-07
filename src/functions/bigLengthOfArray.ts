@@ -5,7 +5,6 @@ const bigLength = function (text: String) {
   let tLength = 0;
 
   for (let i = 0; i < textArray.length; i++) {
-    // tLength = Math.max(tLength, textArray[i].length);
     const width = getVisibleWidth(textArray[i])
     tLength =Math.max(tLength, width)
   }
