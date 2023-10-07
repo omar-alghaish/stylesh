@@ -6,6 +6,10 @@ Stylesh is a powerful and easy-to-use JavaScript and TypeScript library that ena
 
 ![Examples](https://raw.githubusercontent.com/omar-alghaish/stylesh/main/imgs/Screenshot%202023-10-08%20002635.png)
 
+![Examples](https://raw.githubusercontent.com/omar-alghaish/stylesh/main/imgs/Screenshot%202023-10-08%20010657.png)
+
+![Examples](https://raw.githubusercontent.com/omar-alghaish/stylesh/main/imgs/Screenshot%202023-10-08%20011134.png)
+
 ## Installation
 
 Installation is done using the
@@ -152,7 +156,7 @@ console.log(
 
 ConsoleStyler supports a variety of colors, including "red", "green", "blue", and many more. You can choose from 141 available colors to customize your console output.
 
-<div style=" display:flex;  flex-wrap: wrap;  justify-content: space-between">
+<div style=" display:flex;    justify-content: space-between">
 <table style="font-size:85%; display: inline; border-collapse: collapse;" class="color-chart-x11-table">
 
 <tbody><tr style="vertical-align:top;">
