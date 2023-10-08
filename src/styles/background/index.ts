@@ -1,1 +1,2 @@
-import "./textBackground"
+import "./textBackground";
+import "./multiBg"

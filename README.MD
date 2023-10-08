@@ -4,6 +4,8 @@
 
 Stylesh is a powerful and easy-to-use JavaScript and TypeScript library that enables developers to style text and add various decorative elements to console output. With Stylesh, you can apply colors to text and backgrounds, create dashed, double, solid, or custom borders, and even customize the border colors from a palette of 141 available colors. This library simplifies the process of enhancing console output for JavaScript and TypeScript developers, making debugging and logging more visually appealing and informative.
 
+![Logo](https://raw.githubusercontent.com/omar-alghaish/stylesh/main/imgs/logo-color.png)
+
 ![Examples](https://raw.githubusercontent.com/omar-alghaish/stylesh/main/imgs/Screenshot%202023-10-08%20002635.png)
 
 ![Examples](https://raw.githubusercontent.com/omar-alghaish/stylesh/main/imgs/Screenshot%202023-10-08%20010657.png)
@@ -39,14 +41,46 @@ require("stylesh");
 //or
 import("stylesh");
 ```
-
-#### Change Text Color and Background
-
+## Text color 
+1.**single color:** You can use Any of the 141 available colors, use color names
 ```js
-console.log("Important Message".color("green").bg("yellow"));
+console.log("Important Message".color("green"));
+```
+2.**multi  colors:**
+- red
+- yellow
+- green
+- blue
+- pink
+- orange
+- brown
+- purple
+- cyan
+```js
+console.log("Important Message".multiColors("red");
 ```
 
-### Border Styles
+
+## Background color
+1.**single color:** You can use Any of the 141 available colors, use color names
+```js
+console.log("Important Message".bg("green"));
+```
+2.**multi  colors:**
+- red
+- yellow
+- green
+- blue
+- pink
+- orange
+- brown
+- purple
+- cyan
+```js
+console.log("Important Message".multiBg("red");
+```
+
+## Border Styles
 
 #### Solid Border
 

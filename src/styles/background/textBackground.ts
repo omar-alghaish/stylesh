@@ -1,4 +1,4 @@
-import backgroundColors from "../../colors/backgroundColors";
+import {backgroundColors} from "../../colors/backgroundColors";
 import bigLength from "../../functions/bigLengthOfArray";
 
 String.prototype.bg = function(color:string) {

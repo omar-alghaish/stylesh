@@ -13,4 +13,6 @@ interface String {
   color(color?: string): string;
   multiColors(colors: string): string;
   bg(color?: string): string;
+  multiBg(colors: string): string;
+
 }
