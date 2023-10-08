@@ -127,7 +127,7 @@ console.log(
 ### Custom Border
 
 - **Symbol:** The character used to create the border.
-- **Border Position:** Use 'top', 'bottom', 'left', or 'right' to specify the position
+- **Border Position:** Use 'all', 'top', 'bottom', 'left', or 'right' to specify the position
 - **Border Color:** Any of the 141 available colors, use color names.
 
 #### Examples

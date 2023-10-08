@@ -1,1 +1,2 @@
 import "./textColor";
+import "./multiColor"

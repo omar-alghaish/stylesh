@@ -201,4 +201,17 @@ const colors: Colors = {
   ...blackColors,
 };
 
-export default colors;
+export {
+  colors,
+  redColors,
+  greenColors,
+  yellowColors,
+  orangeColors,
+  pinkColors,
+  PurpleVioletMagentaColors,
+  blueColors,
+  whiteColors,
+  cyanColors,
+  brownColors,
+  blackColors,
+};

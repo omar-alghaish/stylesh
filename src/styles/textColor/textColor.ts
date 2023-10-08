@@ -1,4 +1,4 @@
-import colors from "../../colors/colors";
+import {colors} from "../../colors/colors";
 import bigLength from "../../functions/bigLengthOfArray";
 String.prototype.color = function (color = "reset") {
   const { tLength, textArray } = bigLength(this);

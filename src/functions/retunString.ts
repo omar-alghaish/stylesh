@@ -1,4 +1,4 @@
-import colors from "../colors/colors";
+import {colors} from "../colors/colors";
 import bigLength from "./bigLengthOfArray";
 import getVisibleWidth from "./getWidth";
 

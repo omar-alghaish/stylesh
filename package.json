@@ -1,6 +1,6 @@
 {
   "name": "stylesh",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "",
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs"
@@ -26,20 +26,29 @@
   ],
   "types": "dist/index.d.ts",
   "keywords": [
-    "color",
-    "ansi",
-    "terminal",
-    "javascript",
     "console",
-    "commandline",
-    "log",
-    "colors",
-    "style",
-    "stylesh"
+    "styling",
+    "text",
+    "formatting",
+    "colorful",
+    "terminal",
+    "CLI",
+    "JavaScript",
+    "TypeScript",
+    "developer",
+    "tools",
+    "utility",
+    "border",
+    "styles",
+    "colorization",
+    "command line",
+    "interface",
+    "output",
+    "developer tools"
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/omar-alghaish/stylesh"
   },
   "devDependencies": {
     "rollup-plugin-url": "^3.0.1"

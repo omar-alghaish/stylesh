@@ -1,4 +1,4 @@
-import colors from "../../colors/colors";
+import {colors} from "../../colors/colors";
 import getVisibleWidth from "../../functions/getWidth";
 
 String.prototype.createCustomBorder = function (
