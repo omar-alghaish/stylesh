@@ -1,6 +1,6 @@
 {
   "name": "stylesh",
-  "version": "0.0.5",
+  "version": "1.0.2",
   "description": "Stylesh is a powerful and easy-to-use JavaScript and TypeScript library that enables developers to style text and add various decorative elements to console output. With Stylesh, you can apply colors to text and backgrounds, create dashed, double, solid, or custom borders, and even customize the border colors from a palette of 141 available colors. This library simplifies the process of enhancing console output for JavaScript and TypeScript developers, making debugging and logging more visually appealing and informative.",
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs"

@@ -6,11 +6,7 @@ Stylesh is a powerful and easy-to-use JavaScript and TypeScript library that ena
 
 ![Logo](https://raw.githubusercontent.com/omar-alghaish/stylesh/main/imgs/logo-color.png)
 
-![Examples](https://raw.githubusercontent.com/omar-alghaish/stylesh/main/imgs/Screenshot%202023-10-08%20002635.png)
-
-![Examples](https://raw.githubusercontent.com/omar-alghaish/stylesh/main/imgs/Screenshot%202023-10-08%20010657.png)
-
-![Examples](https://raw.githubusercontent.com/omar-alghaish/stylesh/main/imgs/Screenshot%202023-10-08%20011134.png)
+![Examples](https://raw.githubusercontent.com/omar-alghaish/stylesh/main/imgs/Screenshot%202023-10-09%20123255.png)
 
 ## Installation
 
@@ -41,12 +37,19 @@ require("stylesh");
 //or
 import("stylesh");
 ```
-## Text color 
+
+## Text color
+
 1.**single color:** You can use Any of the 141 available colors, use color names
+
 ```js
 console.log("Important Message".color("green"));
 ```
-2.**multi  colors:**
+
+2.**multi colors:**
+
+![Examples](https://raw.githubusercontent.com/omar-alghaish/stylesh/main/imgs/Screenshot%202023-10-09%20130845.png)
+
 - red
 - yellow
 - green
@@ -56,17 +59,23 @@ console.log("Important Message".color("green"));
 - brown
 - purple
 - cyan
+
 ```js
 console.log("Important Message".multiColors("red");
 ```
 
-
 ## Background color
+
 1.**single color:** You can use Any of the 141 available colors, use color names
+
 ```js
 console.log("Important Message".bg("green"));
 ```
-2.**multi  colors:**
+
+2.**multi colors:**
+
+![Examples](https://raw.githubusercontent.com/omar-alghaish/stylesh/main/imgs/Screenshot%202023-10-09%20130411.png)
+
 - red
 - yellow
 - green
@@ -76,11 +85,14 @@ console.log("Important Message".bg("green"));
 - brown
 - purple
 - cyan
+
 ```js
 console.log("Important Message".multiBg("red");
 ```
 
 ## Border Styles
+
+![Examples](https://raw.githubusercontent.com/omar-alghaish/stylesh/main/imgs/Screenshot%202023-10-08%20002635.png)
 
 #### Solid Border
 
