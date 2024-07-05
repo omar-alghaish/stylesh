@@ -1,17 +1,19 @@
 {
   "compilerOptions": {
     "target": "es2016",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "skipLibCheck": true,
     "module": "ESNext",
+    "moduleResolution": "node",
     "declaration": true,
     "declarationDir": "types",
     "sourceMap": true,
     "outDir": "dist",
-    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "emitDeclarationOnly": true
-  }
+  },
+  "include": ["src/**/*", "types/**/*"],
+  "exclude": ["node_modules", "dist"]
 }

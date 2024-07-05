@@ -35,7 +35,7 @@ First, import the stylesh library into your project:
 // Import the stylesh library
 require("stylesh");
 //or
-import("stylesh");
+import "stylesh";
 ```
 
 ## Text color
