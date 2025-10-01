@@ -1,0 +1,78 @@
+{
+  "name": "stylesh",
+  "version": "2.0.1",
+  "description": "A powerful and elegant terminal styling library with colors, gradients, borders, themes, and animations for Node.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "console",
+    "terminal",
+    "cli",
+    "styling",
+    "text",
+    "colors",
+    "ansi",
+    "formatting",
+    "colorful",
+    "borders",
+    "themes",
+    "animations",
+    "gradient",
+    "typescript",
+    "javascript",
+    "developer-tools",
+    "logging",
+    "chalk-alternative",
+    "terminal-styling",
+    "text-decoration",
+    "console-colors",
+    "node-colors"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omar-alghaish/stylesh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/omar-alghaish/stylesh/issues"
+  },
+  "homepage": "https://github.com/omar-alghaish/stylesh#readme",
+  "author": {
+    "name": "Omar Alghaish",
+    "email": "omaralghish@gmail.com",
+    "url": "https://omar-alghaish.web.app/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "rm": "^0.1.8",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.js"
+    },
+    "./extensions": {
+      "types": "./dist/extensions/index.d.ts",
+      "require": "./dist/extensions/index.js",
+      "import": "./dist/extensions/index.js"
+    }
+  }
+}
